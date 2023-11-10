@@ -4,6 +4,8 @@
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="styleguide.css" />
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <script src="/thiagomedeiros.github.io/direct.js"></script>
   </head>
   <body>
     <div class="TELA-DE-LOGIN">
@@ -11,23 +13,27 @@
         <div class="overlap">
           <img class="logo-barbearia" src="img/logo-barbearia-1.png" />
           <div class="text-wrapper">Entre agora</div>
-          <p class="ou-fa-a-o-cadastro">
+          <p id="nome_cadastro" class="ou-fa-a-o-cadastro">
             <span class="span">Ou faça o </span>
-            <span class="text-wrapper-2">cadastro</span>
+            <span class="text-wrapper-2" onclick="cadastro()">cadastro</span>
             <span class="span"> agora</span>
           </p>
         </div>
         <p class="p">Todos os direitos reservados ® TMS</p>
-        <div class="overlap-group"><div class="text-wrapper-3">Email ou CPF</div></div>
-        <div class="div-wrapper"><div class="text-wrapper-4">Digite sua senha</div></div>
+        <!-- <div class="overlap-group"><div id="email_cpf_login" class="text-wrapper-3">Email ou CPF</div></div> -->
+        <div class="overlap-group"><input type="text" id="email_cpf_login" class="text-wrapper-3" placeholder="Email ou CPF"></div>
+        <div class="div-wrapper"><input type="password" id="senha_login" class="text-wrapper-4" placeholder="Digite sua senha"></div>
         <div class="overlap-2">
           <div class="rectangle"></div>
           <div class="text-wrapper-5">Entrar</div>
         </div>
         <div class="overlap-3"><div class="text-wrapper-6">Contato</div></div>
-        <img class="back-icon" src="img/back-icon-1.png" />
+        <div id="back_icon" onclick="back()">
+          <img class="back-icon" src="img/back-icon-1.png" />
+        </div>
+        
         <div class="text-wrapper-7">Esqueci minha senha</div>
-        <img class="instagram" src="img/instagram.png" />
+        <a href="https://www.instagram.com/thiago.soriedem/" target="_blank" rel="noopener noreferrer"><img class="instagram" src="img/instagram.png" /></a>
       </div>
     </div>
   </body>

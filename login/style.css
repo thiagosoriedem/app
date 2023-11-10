@@ -1,3 +1,11 @@
+/* Apenas para Web. Caso APP, retirar/comentar */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #191919;
+}	
+/* -------------------------- */
 .TELA-DE-LOGIN {
   background-color: #191919;
   display: flex;
@@ -80,12 +88,32 @@
   line-height: normal;
 }
 
-.TELA-DE-LOGIN .overlap-group {
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-family: "Poppins", Helvetica;
+  text-align: center;
+}
+
+input[type="text"]::placeholder {
+  color: #ffffff80;
+}
+
+.TELA-DE-LOGIN .overlap-group #email_cpf_login {
   position: absolute;
   width: 347px;
   height: 55px;
   top: 308px;
   left: 32px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
   border-radius: 20px;
   border: 3px solid;
   border-color: var(--variable-collection-c1);
@@ -100,12 +128,15 @@
   font-weight: 700;
   color: #ffffff80;
   font-size: 14px;
-  text-align: center;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.TELA-DE-LOGIN .div-wrapper {
+input[type="password"]::placeholder {
+  color: #ffffff80;
+}
+
+.TELA-DE-LOGIN .div-wrapper #senha_login {
   position: absolute;
   width: 347px;
   height: 55px;
@@ -123,7 +154,7 @@
   left: 10px;
   font-family: "Poppins", Helvetica;
   font-weight: 700;
-  color: #ffffff80;
+  color: #ffffff;
   font-size: 14px;
   text-align: center;
   letter-spacing: 0;
