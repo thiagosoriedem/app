@@ -1,0 +1,150 @@
+/* Apenas para Web. Caso APP, retirar/comentar */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #191919;
+}	
+/* -------------------------- */
+
+.element-ERRO {
+  background-color: #191919;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element-ERRO .div {
+  background-color: #191919;
+  width: 414px;
+  height: 736px;
+  position: relative;
+}
+
+.element-ERRO .logo-barbearia {
+  position: absolute;
+  width: 150px;
+  height: 143px;
+  top: 0;
+  left: 130px;
+  object-fit: cover;
+}
+
+.element-ERRO .text-wrapper {
+  position: absolute;
+  height: 15px;
+  top: 681px;
+  left: 121px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  color: #ffffff66;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-ERRO .overlap-group {
+  position: absolute;
+  width: 172px;
+  height: 18px;
+  top: 441px;
+  left: 122px;
+}
+
+.element-ERRO .text-wrapper-2 {
+  position: absolute;
+  width: 137px;
+  height: 36px;
+  top: 0;
+  left: 17px;
+  font-family: "Poppins";
+  font-weight: 900;
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 36px;
+  font-style: normal;
+}
+
+.element-ERRO .text-wrapper-3 {
+  position: absolute;
+  width: 172px;
+  height: 18px;
+  top: 26px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.element-ERRO .overlap {
+  position: absolute;
+  width: 197px;
+  height: 45px;
+  top: 603px;
+  left: 108px;
+}
+
+.element-ERRO .rectangle {
+  position: absolute;
+  width: 197px;
+  height: 45px;
+  top: 0;
+  left: 0;
+}
+
+.element-ERRO .text-wrapper-4 {
+  position: absolute;
+  height: 18px;
+  top: 13px;
+  left: 52px;
+  font-family: "Poppins";
+  font-weight: 700;
+  color: var(--variable-collection-c1);
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-ERRO .div-wrapper {
+  position: absolute;
+  width: 84px;
+  height: 19px;
+  top: 706px;
+  left: 165px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: var(--variable-collection-c1);
+}
+
+.element-ERRO .text-wrapper-5 {
+  position: absolute;
+  height: 15px;
+  top: 0;
+  left: 20px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.element-ERRO .cog {
+  position: absolute;
+  width: 152.663px;
+  height: 152.75px;
+  top: 232px;
+  left: 132px;
+  flex-shrink: 0;
+}
