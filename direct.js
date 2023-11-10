@@ -8,8 +8,5 @@ function back() {
     window.history.back();
 }
 
-// page login > adicionando dinamicametne input nas lacunas
-var input_email_cpf_login = document.getElementById('email_cpf_login');
-
 
 
