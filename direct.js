@@ -5,7 +5,7 @@ function cadastro() {
     window.location.href = './cadastro/index.html';
 }
 function back() {
-    window.history.back();
+    window.location.href = '../index.html';
 }
 
 
